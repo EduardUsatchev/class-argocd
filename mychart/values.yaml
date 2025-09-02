@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: eduardusatchev/2402-myimage
+  repository: a18ab77c4b90/2402-myimage
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "0.7"
 
 imagePullSecrets: []
 nameOverride: ""
